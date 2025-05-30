@@ -15,7 +15,7 @@
     <name>jobernode server</name>
     <description>An application that manages the way users manage jobs</description>
     <modules>
-<!--        <module>discovery</module>-->
+        <module>eureka-server</module>
 <!--        <module>user</module>-->
 <!--        <module>notification-service</module>-->
 <!--        <module>bidservice</module>-->
@@ -27,7 +27,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.boot.dependencies>3.4.3</spring.boot.dependencies>
-        <spring.cloud-version>2024.0.0</spring.cloud-version>
+        <spring.cloud-version>2023.0.1</spring.cloud-version>
     </properties>
 
     <dependencyManagement>
