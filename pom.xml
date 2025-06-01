@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.5</version>
+        <version>3.4.3</version>
         <relativePath/>
     </parent>
     <groupId>com.applications</groupId>
@@ -16,7 +16,7 @@
     <description>An application that manages the way users manage jobs</description>
     <modules>
         <module>eureka-server</module>
-<!--        <module>user</module>-->
+        <module>auths</module>
 <!--        <module>notification-service</module>-->
 <!--        <module>bidservice</module>-->
 <!--        <module>bidservice</module>-->
